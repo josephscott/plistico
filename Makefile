@@ -7,3 +7,4 @@ dist: assemble
 .PHONY: assemble
 assemble:
 	cat src/vars.css > dist/plistico.css
+	cat src/elements.css >> dist/plistico.css

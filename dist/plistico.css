@@ -3,4 +3,55 @@
 	--font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 	--font-family-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 	--font-famiy-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+
+	--line-height: 1.5;
+	--font-weight: 400;
+	--font-size: 18px;
+}
+/* *** Elements *** */
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: var( --font-family );
+	font-size: var( --font-size );
+	font-weight: var( --font-weight );
+	line-height: var( --line-height );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+}
+h1 {
+	font-size: 2.25rem;
+}
+h2 {
+	font-size: 2.00rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.50rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1.00rem;
+}
+
+li::marker {
+	font-weight: bold;
+}
+
+pre,
+code,
+kbd,
+samp {
+	font-family: var( --font-family-mono );
 }
