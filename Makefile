@@ -8,3 +8,4 @@ dist: assemble
 assemble:
 	cat src/vars.css > dist/plistico.css
 	cat src/elements.css >> dist/plistico.css
+	cat src/navbar.css >> dist/plistico.css
