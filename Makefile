@@ -9,7 +9,9 @@ docs:
 
 .PHONY: dist
 dist: assemble
-	csso -i dist/plistico.css -o dist/plistico.min.css
+	node_modules/.bin/csso -i dist/plistico.css -o dist/plistico.min.css
+	node_modules/.bin/postcss dist/plistico.css -o dist/plistico-no-vars.css
+	node_modules/.bin/csso -i dist/plistico-no-vars.css -o dist/plistico-no-vars.min.css
 
 .PHONY: assemble
 assemble:

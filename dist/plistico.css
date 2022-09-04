@@ -8,6 +8,8 @@
 	--font-weight: 400;
 	--font-size: 18px;
 
+	--grid-gutter: 0px;
+
 	--primary-color: #296eab;
 	--navbar-active-color: var( --primary-color );
 }
