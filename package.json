@@ -1,0 +1,8 @@
+{
+	"devDependencies": {
+		"cssnano-cli": "1.0.5",
+		"postcss": "8.4.16",
+		"postcss-cli": "10.0.0",
+		"postcss-custom-properties": "12.1.8"
+	}
+}
