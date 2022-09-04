@@ -1,4 +1,11 @@
-.DEFAULT_GOAL := dist
+SHELL=bash
+.DEFAULT_GOAL := all
+
+.PHONY:
+all: dist docs
+
+.PHONY: docs
+docs:
 
 .PHONY: dist
 dist: assemble
