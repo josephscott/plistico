@@ -48,6 +48,14 @@ kbd,
 samp {
 	font-family: var( --font-family-mono );
 }
+
+code, kbd {
+	white-space: pre-wrap;
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	background-color: #f3f3f6;
+	color: #d43939;
+}
 /* *** Navbar *** */
 .navbar {
 	overflow: hidden;

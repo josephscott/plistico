@@ -10,6 +10,9 @@
 	--font-weight: 400;
 	--font-size: 18px;
 
+	--code-bg-color: #f3f3f6;
+	--code-color: #d43939;
+
 	--grid-gutter: 0px;
 
 	--primary-color: #296eab;
@@ -61,6 +64,14 @@ code,
 kbd,
 samp {
 	font-family: var( --font-family-mono );
+}
+
+code, kbd {
+	white-space: pre-wrap;
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	background-color: var( --code-bg-color );
+	color: var( --code-color );
 }
 /* *** Navbar *** */
 .navbar {
