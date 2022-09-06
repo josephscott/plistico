@@ -91,6 +91,7 @@ table.striped tr:nth-of-type( 2n ) {
 td,
 th {
 	vertical-align: middle;
+	padding: 0.1rem 0.5rem;
 }
 
 thead {
