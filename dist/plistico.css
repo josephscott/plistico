@@ -17,6 +17,8 @@
 
 	--primary-color: #296eab;
 	--navbar-active-color: var( --primary-color );
+	--table-stripe-color: #edf0f3;
+	--table-header-line-color: var( --table-strip-color );
 }
 /* *** Elements *** */
 html, body {
@@ -72,6 +74,31 @@ code, kbd {
 	padding: 0.2em 0.4em;
 	background-color: var( --code-bg-color );
 	color: var( --code-color );
+}
+
+table {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+
+table.striped tr:nth-of-type( 2n ) {
+	background-color: var( --table-stripe-color );
+}
+
+td,
+th {
+	vertical-align: middle;
+}
+
+thead {
+	border-bottom: 2px solid var( --table-header-line-color );
+}
+
+tfoot {
+	border-top: 2px solid var( --table-header-line-color );
 }
 /* *** Navbar *** */
 .navbar {

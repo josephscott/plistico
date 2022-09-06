@@ -53,3 +53,28 @@ code, kbd {
 	background-color: var( --code-bg-color );
 	color: var( --code-color );
 }
+
+table {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+
+table.striped tr:nth-of-type( 2n ) {
+	background-color: var( --table-stripe-color );
+}
+
+td,
+th {
+	vertical-align: middle;
+}
+
+thead {
+	border-bottom: 2px solid var( --table-header-line-color );
+}
+
+tfoot {
+	border-top: 2px solid var( --table-header-line-color );
+}

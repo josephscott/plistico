@@ -1,4 +1,4 @@
-SHELL=bash
+SHELL = bash
 .DEFAULT_GOAL := all
 
 .PHONY: all

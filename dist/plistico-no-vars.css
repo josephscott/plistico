@@ -56,6 +56,31 @@ code, kbd {
 	background-color: #f3f3f6;
 	color: #d43939;
 }
+
+table {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+
+table.striped tr:nth-of-type( 2n ) {
+	background-color: #edf0f3;
+}
+
+td,
+th {
+	vertical-align: middle;
+}
+
+thead {
+	border-bottom: 2px solid var( --table-strip-color );
+}
+
+tfoot {
+	border-top: 2px solid var( --table-strip-color );
+}
 /* *** Navbar *** */
 .navbar {
 	overflow: hidden;

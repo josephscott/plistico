@@ -17,4 +17,6 @@
 
 	--primary-color: #296eab;
 	--navbar-active-color: var( --primary-color );
+	--table-stripe-color: #edf0f3;
+	--table-header-line-color: var( --table-strip-color );
 }
