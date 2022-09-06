@@ -28,7 +28,9 @@ minify:
 	@echo
 	@echo "--> Minifying CSS files."
 	node_modules/.bin/csso -i dist/plistico.css -o dist/plistico.min.css
+	echo "\n" >> dist/plistico.min.css
 	node_modules/.bin/csso -i dist/plistico-no-vars.css -o dist/plistico-no-vars.min.css
+	echo "\n" >> dist/plistico-no-vars.min.css
 
 .PHONY: docs
 docs:
