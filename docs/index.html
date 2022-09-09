@@ -26,30 +26,53 @@
 <h1>Plistico CSS</h1>
 <hr />
 
+<h2>Navbar</h2>
+
+<table class="striped">
+	<tr>
+		<td style="width:30%"><pre>
+&lt;div class=&quot;navbar&quot; id=&quot;navbar&quot;&gt;
+	&lt;a href=&quot;#home&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;
+	&lt;a href=&quot;#news&quot;&gt;News&lt;/a&gt;
+	&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;
+	&lt;a href=&quot;#&quot; class=&quot;toggle&quot; onclick=&quot;this.parentNode.classList.toggle(&#39;responsive&#39;)&quot;&gt;&amp;#9776;&lt;/a&gt;
+&lt;/div&gt;
+		</pre></td>
+		<td>
+			<div class="navbar" id="navbar">
+				<a href="#home" class="active">Home</a>
+				<a href="#news">News</a>
+				<a href="#contact">Contact</a>
+				<a href="#" class="toggle" onclick="this.parentNode.classList.toggle('responsive')">&#9776;</a>
+			</div>
+		</td>
+	</tr>
+</table>
+
 <h2>Headers</h2>
 <table class="striped">
 	<tr>
-		<td><code>&lt;h1&gt;H1 Header&lt;/h1&gt;</code></td>
+		<td><pre>&lt;h1&gt;H1 Header&lt;/h1&gt;</pre></td>
 		<td><h1>H1 Header</h1></td>
 	</tr>
 	<tr>
-		<td><code>&lt;h1&gt;H2 Header&lt;/h1&gt;</code></td>
+		<td><pre>&lt;h1&gt;H2 Header&lt;/h1&gt;</pre></td>
 		<td><h2>H2 Header</h2></td>
 	</tr>
 	<tr>
-		<td><code>&lt;h1&gt;H3 Header&lt;/h1&gt;</code></td>
+		<td><pre>&lt;h1&gt;H3 Header&lt;/h1&gt;</pre></td>
 		<td><h3>H3 Header</h3></td>
 	</tr>
 	<tr>
-		<td><code>&lt;h1&gt;H4 Header&lt;/h1&gt;</code></td>
+		<td><pre>&lt;h1&gt;H4 Header&lt;/h1&gt;</pre></td>
 		<td><h4>H4 Header</h4></td>
 	</tr>
 	<tr>
-		<td><code>&lt;h1&gt;H5 Header&lt;/h1&gt;</code></td>
+		<td><pre>&lt;h1&gt;H5 Header&lt;/h1&gt;</pre></td>
 		<td><h5>H5 Header</h5></td>
 	</tr>
 	<tr>
-		<td><code>&lt;h1&gt;H6 Header&lt;/h1&gt;</code></td>
+		<td><pre>&lt;h1&gt;H6 Header&lt;/h1&gt;</pre></td>
 		<td><h6>H6 Header</h6></td>
 	</tr>
 </table>
