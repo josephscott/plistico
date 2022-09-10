@@ -21,6 +21,10 @@
 	--table-header-line-color: var( --table-strip-color );
 }
 /* *** Elements *** */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
