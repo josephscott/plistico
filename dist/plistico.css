@@ -34,12 +34,7 @@ html, body {
 	line-height: var( --line-height );
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 h1 {
@@ -65,10 +60,7 @@ li::marker {
 	font-weight: bold;
 }
 
-pre,
-code,
-kbd,
-samp {
+pre, code, kbd, samp {
 	font-family: var( --font-family-mono );
 }
 
@@ -92,8 +84,7 @@ table.striped tr:nth-of-type( 2n ) {
 	background-color: var( --table-stripe-color );
 }
 
-td,
-th {
+td, th {
 	vertical-align: middle;
 	padding: 0.1rem 0.5rem;
 }
@@ -192,9 +183,7 @@ tfoot {
     flex: 1;
 }
 
-.col,
-[class*=" col-"],
-[class^='col-'] {
+.col, [class*=" col-"], [class^='col-'] {
     margin: 0 calc(var(--grid-gutter) / 2) calc(var(--grid-gutter) / 2);
 }
 
@@ -267,9 +256,7 @@ tfoot {
         max-width: 96%;
     }
 
-    .col,
-    [class*="col-"],
-    [class^='col-'] {
+    .col, [class*="col-"], [class^='col-'] {
         flex: 0 1 100%;
         max-width: 100%;
     }
