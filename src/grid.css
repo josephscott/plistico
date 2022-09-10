@@ -26,9 +26,7 @@
     flex: 1;
 }
 
-.col,
-[class*=" col-"],
-[class^='col-'] {
+.col, [class*=" col-"], [class^='col-'] {
     margin: 0 calc(var(--grid-gutter) / 2) calc(var(--grid-gutter) / 2);
 }
 
@@ -101,9 +99,7 @@
         max-width: 96%;
     }
 
-    .col,
-    [class*="col-"],
-    [class^='col-'] {
+    .col, [class*="col-"], [class^='col-'] {
         flex: 0 1 100%;
         max-width: 100%;
     }
