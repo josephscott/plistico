@@ -90,6 +90,10 @@ blockquote {
 	background-color: #f4f4f4;
 	border: 1px solid #c4c4c4;
 }
+blockquote cite::before {
+	content: "\2014";
+	padding-right: 7px;
+}
 /* *** Navbar *** */
 .navbar {
 	overflow: hidden;

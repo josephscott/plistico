@@ -81,3 +81,7 @@ blockquote {
 	background-color: var( --blockquote-background );
 	border: 1px solid var( --blockquote-border );
 }
+blockquote cite::before {
+	content: "\2014";
+	padding-right: 7px;
+}
