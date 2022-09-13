@@ -74,3 +74,10 @@ thead {
 tfoot {
 	border-top: 2px solid var( --table-header-line-color );
 }
+
+blockquote {
+	box-shadow: -5px 5px 7px 0px var( --blockquote-shadow );
+	padding: 20px;
+	background-color: var( --blockquote-background );
+	border: 1px solid var( --blockquote-border );
+}
