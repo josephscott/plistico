@@ -152,8 +152,8 @@ tfoot {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    margin-left: calc(0px / -2);
-    margin-right: calc(0px / -2);
+    margin-left: calc(1px / -2);
+    margin-right: calc(1px / -2);
 }
 
 .row.reverse {
@@ -165,67 +165,67 @@ tfoot {
 }
 
 .col, [class*=" col-"], [class^='col-'] {
-    margin: 0 calc(0px / 2) calc(0px / 2);
+    margin: 0 calc(1px / 2) calc(1px / 2);
 }
 
 .col-1 {
-    flex: 0 0 calc((100% / (12/1)) - 0px);
-    max-width: calc((100% / (12/1)) - 0px);
+    flex: 0 0 calc((100% / (12/1)) - 1px);
+    max-width: calc((100% / (12/1)) - 1px);
 }
 
 .col-2 {
-    flex: 0 0 calc((100% / (12/2)) - 0px);
-    max-width: calc((100% / (12/2)) - 0px);
+    flex: 0 0 calc((100% / (12/2)) - 1px);
+    max-width: calc((100% / (12/2)) - 1px);
 }
 
 .col-3 {
-    flex: 0 0 calc((100% / (12/3)) - 0px);
-    max-width: calc((100% / (12/3)) - 0px);
+    flex: 0 0 calc((100% / (12/3)) - 1px);
+    max-width: calc((100% / (12/3)) - 1px);
 }
 
 .col-4 {
-    flex: 0 0 calc((100% / (12/4)) - 0px);
-    max-width: calc((100% / (12/4)) - 0px);
+    flex: 0 0 calc((100% / (12/4)) - 1px);
+    max-width: calc((100% / (12/4)) - 1px);
 }
 
 .col-5 {
-    flex: 0 0 calc((100% / (12/5)) - 0px);
-    max-width: calc((100% / (12/5)) - 0px);
+    flex: 0 0 calc((100% / (12/5)) - 1px);
+    max-width: calc((100% / (12/5)) - 1px);
 }
 
 .col-6 {
-    flex: 0 0 calc((100% / (12/6)) - 0px);
-    max-width: calc((100% / (12/6)) - 0px);
+    flex: 0 0 calc((100% / (12/6)) - 1px);
+    max-width: calc((100% / (12/6)) - 1px);
 }
 
 .col-7 {
-    flex: 0 0 calc((100% / (12/7)) - 0px);
-    max-width: calc((100% / (12/7)) - 0px);
+    flex: 0 0 calc((100% / (12/7)) - 1px);
+    max-width: calc((100% / (12/7)) - 1px);
 }
 
 .col-8 {
-    flex: 0 0 calc((100% / (12/8)) - 0px);
-    max-width: calc((100% / (12/8)) - 0px);
+    flex: 0 0 calc((100% / (12/8)) - 1px);
+    max-width: calc((100% / (12/8)) - 1px);
 }
 
 .col-9 {
-    flex: 0 0 calc((100% / (12/9)) - 0px);
-    max-width: calc((100% / (12/9)) - 0px);
+    flex: 0 0 calc((100% / (12/9)) - 1px);
+    max-width: calc((100% / (12/9)) - 1px);
 }
 
 .col-10 {
-    flex: 0 0 calc((100% / (12/10)) - 0px);
-    max-width: calc((100% / (12/10)) - 0px);
+    flex: 0 0 calc((100% / (12/10)) - 1px);
+    max-width: calc((100% / (12/10)) - 1px);
 }
 
 .col-11 {
-    flex: 0 0 calc((100% / (12/11)) - 0px);
-    max-width: calc((100% / (12/11)) - 0px);
+    flex: 0 0 calc((100% / (12/11)) - 1px);
+    max-width: calc((100% / (12/11)) - 1px);
 }
 
 .col-12 {
-    flex: 0 0 calc((100% / (12/12)) - 0px);
-    max-width: calc((100% / (12/12)) - 0px);
+    flex: 0 0 calc((100% / (12/12)) - 1px);
+    max-width: calc((100% / (12/12)) - 1px);
 }
 
 @media screen and (max-width: 699px) {

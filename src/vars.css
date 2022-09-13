@@ -13,7 +13,7 @@
 	--code-bg-color: #f3f3f6;
 	--code-color: #d43939;
 
-	--grid-gutter: 0px;
+	--grid-gutter: 1px;
 
 	--primary-color: #296eab;
 	--navbar-active-color: var( --primary-color );
