@@ -89,16 +89,7 @@ blockquote {
 	padding: 20px;
 	background-color: #f4f4f4;
 	border: 1px solid #c4c4c4;
-	background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20style%3D%22enable-background%3Anew%200%200%2032%2032%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20style%3D%22fill%3A%23030104%22%20d%3D%22M0%204v12h8c0%204.41-3.586%208-8%208v4c6.617%200%2012-5.383%2012-12V4H0zM20%204v12h8c0%204.41-3.586%208-8%208v4c6.617%200%2012-5.383%2012-12V4H20z%22%2F%3E%3C%2Fsvg%3E");
 }
-
-
-
-/*
-    --blockquote-background: #f4f4f4;
-    --blockquote-border: #c4c4c4;
-    --blockquote-shadow: #747474;
- */
 /* *** Navbar *** */
 .navbar {
 	overflow: hidden;
