@@ -43,6 +43,10 @@ h6 {
 	font-size: 1.00rem;
 }
 
+img {
+	max-width:100%
+}
+
 li::marker {
 	font-weight: bold;
 }
