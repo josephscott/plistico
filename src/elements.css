@@ -38,7 +38,7 @@ li::marker {
 	font-weight: bold;
 }
 
-pre, code, kbd, samp {
+pre, code, kbd {
 	font-family: var( --font-family-mono );
 }
 
