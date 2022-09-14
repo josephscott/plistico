@@ -89,6 +89,10 @@ tfoot {
 	border-top: 3px solid var( --table-border-color );
 }
 
+tr:hover {
+	background-color: var( --table-hover-color ) !important;
+}
+
 blockquote {
 	box-shadow: -5px 5px 7px 0px var( --blockquote-shadow );
 	padding: 20px;

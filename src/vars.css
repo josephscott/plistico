@@ -24,6 +24,7 @@
 	--table-stripe-color: #edf0f3;
 	--table-border-color: #6a6b71;
 	--table-header-background-color: #eed7d7;
+	--table-hover-color: #f8f8ab;
 }
 
 @media screen and (max-width: 699px) {
