@@ -4,7 +4,7 @@
 :root {
 	--font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 	--font-family-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-	--font-famiy-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+	--font-family-mono: monospace;
 
 	--line-height: 1.5;
 	--font-weight: 400;
@@ -71,15 +71,15 @@ li::marker {
 	font-weight: bold;
 }
 
-pre, code, kbd {
+pre, code, kbd, samp {
+	background-color: var( --code-bg-color );
+	border-radius: 3px;
 	font-family: var( --font-family-mono );
+	padding: 0.2em 0.4em;
 }
 
 code, kbd {
 	white-space: pre-wrap;
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	background-color: var( --code-bg-color );
 	color: var( --code-color );
 }
 

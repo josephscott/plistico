@@ -38,15 +38,15 @@ li::marker {
 	font-weight: bold;
 }
 
-pre, code, kbd {
+pre, code, kbd, samp {
+	background-color: var( --code-bg-color );
+	border-radius: 3px;
 	font-family: var( --font-family-mono );
+	padding: 0.2em 0.4em;
 }
 
 code, kbd {
 	white-space: pre-wrap;
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	background-color: var( --code-bg-color );
 	color: var( --code-color );
 }
 
