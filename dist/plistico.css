@@ -83,6 +83,11 @@ code, kbd {
 	color: var( --code-color );
 }
 
+var {
+	font-family: var( --font-family-mono );
+	font-style: normal;
+}
+
 table {
 	width: 100%;
 	border: 1px solid var( --table-border-color );
@@ -122,6 +127,18 @@ blockquote {
 blockquote cite::before {
 	content: "\2014";
 	padding-right: 7px;
+}
+
+q {
+	box-shadow: -5px 5px 7px 0px var( --blockquote-shadow );
+	padding: 5px;
+	background-color: var( --blockquote-background );
+	border: 1px solid var( --blockquote-border );
+}
+
+cite {
+	font-style: italic;
+	font-weight: bold;
 }
 /* *** Navbar *** */
 .navbar {
