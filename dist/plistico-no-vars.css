@@ -61,7 +61,7 @@ code, kbd {
 
 table {
 	width: 100%;
-	border: none;
+	border: 1px solid #6a6b71;
 	border-collapse: collapse;
 	border-spacing: 0;
 	text-align: left;
@@ -72,16 +72,21 @@ table.striped tr:nth-of-type( 2n ) {
 }
 
 td, th {
+	border: 1px solid #6a6b71;
 	vertical-align: middle;
-	padding: 0.1rem 0.5rem;
+	padding: 0.2rem 0.5rem;
+}
+
+th {
+	background-color: #eed7d7;
 }
 
 thead {
-	border-bottom: 2px solid var( --table-strip-color );
+	border-bottom: 3px solid #6a6b71;
 }
 
 tfoot {
-	border-top: 2px solid var( --table-strip-color );
+	border-top: 3px solid #6a6b71;
 }
 
 blockquote {

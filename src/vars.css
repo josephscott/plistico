@@ -22,7 +22,8 @@
 	--primary-color: #296eab;
 	--navbar-active-color: var( --primary-color );
 	--table-stripe-color: #edf0f3;
-	--table-header-line-color: var( --table-strip-color );
+	--table-border-color: #6a6b71;
+	--table-header-background-color: #eed7d7;
 }
 
 @media screen and (max-width: 699px) {

@@ -22,7 +22,8 @@
 	--primary-color: #296eab;
 	--navbar-active-color: var( --primary-color );
 	--table-stripe-color: #edf0f3;
-	--table-header-line-color: var( --table-strip-color );
+	--table-border-color: #6a6b71;
+	--table-header-background-color: #eed7d7;
 }
 
 @media screen and (max-width: 699px) {
@@ -84,7 +85,7 @@ code, kbd {
 
 table {
 	width: 100%;
-	border: none;
+	border: 1px solid var( --table-border-color );
 	border-collapse: collapse;
 	border-spacing: 0;
 	text-align: left;
@@ -95,16 +96,21 @@ table.striped tr:nth-of-type( 2n ) {
 }
 
 td, th {
+	border: 1px solid var( --table-border-color );
 	vertical-align: middle;
-	padding: 0.1rem 0.5rem;
+	padding: 0.2rem 0.5rem;
+}
+
+th {
+	background-color: var( --table-header-background-color );
 }
 
 thead {
-	border-bottom: 2px solid var( --table-header-line-color );
+	border-bottom: 3px solid var( --table-border-color );
 }
 
 tfoot {
-	border-top: 2px solid var( --table-header-line-color );
+	border-top: 3px solid var( --table-border-color );
 }
 
 blockquote {
